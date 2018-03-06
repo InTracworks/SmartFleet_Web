@@ -1,3 +1,2 @@
-# Web_Inerface
+# Web_Interface
 Web interface for GPS tracking system
-This repo is created to have the interface which is required for web to have a GPS tracking
