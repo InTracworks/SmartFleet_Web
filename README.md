@@ -2,6 +2,7 @@
 Web interface for GPS tracking system
 
 Replace following files:
+
 **/opt/traccar/web **
 
 debug.html
