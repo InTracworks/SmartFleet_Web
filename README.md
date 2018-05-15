@@ -1,6 +1,15 @@
 # Web_Interface
 Web interface for GPS tracking system
 
-File system\traccar\web
+Replace following files:
+**/opt/traccar/web **
 
-File system\traccar\web\simple\index.html
+debug.html
+
+favicon.ico
+
+logo.svg
+
+release.html
+
+/opt/traccar/web/simple/index.html
