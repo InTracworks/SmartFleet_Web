@@ -5,10 +5,36 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>ITW Smart Fleet</title>
 <link rel="stylesheet" href="app.css">
+<style>
+.alert {
+    padding: 20px;
+    background-color: #2196F3;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+</style>
 </head>
 <body>
 <div id="spinner"></div>
 <div id="attribution">Powered by <a href="https://www.intracworks.com/">InTracWorks</a></div>
 <script id="loadScript" src="load.js"></script>
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <strong>Info!</strong> Location updates are prone to network delay.You may be seeing delayed location information.Please use your discretion.
+</div>
 </body>
 </html>
